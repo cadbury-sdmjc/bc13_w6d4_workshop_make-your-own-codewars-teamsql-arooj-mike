@@ -6,8 +6,9 @@ we keep our friend's favourite meals in an array of objects! Better go
 do programming things to find the favouritemeal!
 
 v. 2
+v. 2
 Oh gosh! We made too much of Karen’s favourite meal!
-Who else loves it so much we could invite them too??
+We need a list of all people who like the same thing, including her!!
 hint: this requires a chained function; one function calls the other
 */
 
