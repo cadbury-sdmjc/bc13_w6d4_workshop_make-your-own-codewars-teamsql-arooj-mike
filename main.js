@@ -14,6 +14,10 @@ hint: this requires a chained function; one function calls the other
 
 import { people } from "./friendslist.js";
 
-export function findTheMeal(people) {}
+export function findTheMeal() {
+  return people.filter((p) => p.name === "Karen")[0].favouritemeal;
+}
 
-export function findThePeople() {}
+export function findThePeople() {
+  return people.filter((p) => p.favouritemeal === findTheMeal()).map((p) => p.name);
+}
