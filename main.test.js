@@ -9,11 +9,4 @@ test("check the correct meal is selected", () => {
   expect(actual).toBe(expected);
 });
 
-// test("check the correct meal is selected", () => {
-//   const actual = findTheMeal(people);
-//   const expected = ["Kar"];
-//   expect(actual).toBe(expected);
-// });
-// test('correct name', ()=> {
 
-// });
