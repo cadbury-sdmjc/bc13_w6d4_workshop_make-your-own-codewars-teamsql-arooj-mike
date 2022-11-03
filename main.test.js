@@ -1,20 +1,19 @@
 //👉 Write your tests below here:
-import { findTheMeal } from "./main.js"; 
-import { people } from "./main.js"
+import { findTheMeal } from "./main.js";
+import { people } from "./friendslist.js";
 import { test, expect } from "@jest/globals";
 
-test('correct order', ()=> {
-    const actual = findTheMeal(people)
-    const expected = 'spotted dick'
-    expect(actual).toBe(expected);
+test("check the correct meal is selected", () => {
+  const actual = findTheMeal(people);
+  const expected = "unsalted chicken, unpaid";
+  expect(actual).toBe(expected);
 });
 
-// test('correct meal', ()=> {
-
-    
+// test("check the correct meal is selected", () => {
+//   const actual = findTheMeal(people);
+//   const expected = ["Kar"];
+//   expect(actual).toBe(expected);
 // });
-
 // test('correct name', ()=> {
 
-    
 // });
